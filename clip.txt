@@ -1,0 +1,6 @@
+Moments the clip must show:
+[x] 1. Green-dark facility tint with scanlines, orange-suit player, Company terminal and the LETHAL COMPANY title with horn in the first seconds.
+[x] 2. Hoarding Bugs scuttle in and get smacked with the Shovel, honey sparks, "+$30" popups raise the quota bar.
+[x] 3. A big Coil-Head stands among the fight, freezes when watched and rushes when not (small freeze detail is hard to read in stills).
+[x] 4. A Bracken stalks in, leaps at the player, green blood, "+$120".
+[x] 5. Stop Sign swing and QUOTA MET banner.
