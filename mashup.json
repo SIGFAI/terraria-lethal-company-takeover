@@ -3,6 +3,13 @@
   "version": "1.0.0",
   "name": "Lethal Company Takeover",
   "tagline": "Bring Lethal Company into the game in the most visible and funny way. The change shows in the first 30 seconds of play.",
+  "how_to_play": [
+    "Lethal Company monsters hunt you: Hoarding Bugs, Coil-Heads and Brackens keep spawning around you.",
+    "Fight with the Shovel the mod puts in your first hotbar slot; every kill adds money toward the Company quota on screen.",
+    "Watch the Coil-Head to freeze it, and never turn your back on the Bracken: it lunges when you look away.",
+    "Meet the quota for Gold Coins and a bigger quota; create or enter any world to start.",
+    "Your character currently walks and attacks on its own (autopilot) and cannot be hurt."
+  ],
   "kind": "mashup",
   "games": [
     {
@@ -74,8 +81,5 @@
     "id": "terraria",
     "status": "draft"
   },
-  "built_at": "2026-10-05T15:28:32.226Z",
-  "notes": [
-    "Copy Sigf.tmod into Documents/My Games/Terraria/tModLoader/Mods, then enable \"SIGF Mix\" in tModLoader's Workshop > Manage Mods menu and start a world."
-  ]
+  "built_at": "2026-10-05T15:28:32.226Z"
 }
