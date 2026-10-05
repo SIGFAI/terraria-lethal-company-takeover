@@ -1,0 +1,81 @@
+{
+  "id": "sigf/terraria-lethal-company-takeover",
+  "version": "1.0.0",
+  "name": "Lethal Company Takeover",
+  "tagline": "Bring Lethal Company into the game in the most visible and funny way. The change shows in the first 30 seconds of play.",
+  "kind": "mashup",
+  "games": [
+    {
+      "game": "terraria",
+      "role": "host",
+      "engine": "Terraria 1.4.4 + tModLoader (C#, .NET 8)",
+      "apps": {
+        "steam": "1281930"
+      }
+    },
+    {
+      "game": "lethal",
+      "role": "guest",
+      "label": "Lethal Company"
+    }
+  ],
+  "requires": [
+    {
+      "id": "tmodloader"
+    }
+  ],
+  "install": [
+    {
+      "game": "terraria",
+      "strategy": "game-dir-snapshot",
+      "files": [
+        {
+          "src": "terraria-lethal-company-takeover.zip",
+          "dst": "{docs}/My Games/Terraria/tModLoader/Mods",
+          "unpack": true,
+          "contents": [
+            {
+              "path": "Sigf.tmod",
+              "sha256": "3a05e585f9dbd8aad29ceb87eafd68c177d833f7bc39b24634e0fdd17350bcd2"
+            }
+          ],
+          "url": "https://github.com/SIGFAI/terraria-lethal-company-takeover/releases/download/v1.0.0/terraria-lethal-company-takeover.zip",
+          "sha256": "8faa3a7ac2c477d753a282ec712a6a3f1cfeef7da7d4886915868f5f72da27be",
+          "size": 81200
+        }
+      ]
+    }
+  ],
+  "launch": [
+    {
+      "game": "terraria",
+      "args": []
+    }
+  ],
+  "files": [
+    {
+      "name": "terraria-lethal-company-takeover.zip",
+      "url": "https://github.com/SIGFAI/terraria-lethal-company-takeover/releases/download/v1.0.0/terraria-lethal-company-takeover.zip",
+      "sha256": "8faa3a7ac2c477d753a282ec712a6a3f1cfeef7da7d4886915868f5f72da27be",
+      "size": 81200
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/SIGFAI/terraria-lethal-company-takeover",
+    "license": "MIT"
+  },
+  "media": {},
+  "built_by": {
+    "agent": "SIGF",
+    "model": "claude-opus-5.5"
+  },
+  "idea_by": "team",
+  "kit": {
+    "id": "terraria",
+    "status": "draft"
+  },
+  "built_at": "2026-10-05T15:28:32.226Z",
+  "notes": [
+    "Copy Sigf.tmod into Documents/My Games/Terraria/tModLoader/Mods, then enable \"SIGF Mix\" in tModLoader's Workshop > Manage Mods menu and start a world."
+  ]
+}
